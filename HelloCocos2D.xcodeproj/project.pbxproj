@@ -205,6 +205,11 @@
 		45BE23141CA8BE4F0027A898 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE23131CA8BE4F0027A898 /* AppDelegate.m */; };
 		45BE23171CA8BE4F0027A898 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE23161CA8BE4F0027A898 /* HelloWorldScene.m */; };
 		45BE23191CA8BE4F0027A898 /* white_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 45BE23181CA8BE4F0027A898 /* white_square.png */; };
+		45BE23281CA8D4270027A898 /* ChocoboRacing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45BE23231CA8D4270027A898 /* ChocoboRacing.mp3 */; };
+		45BE23291CA8D4270027A898 /* Dragonball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45BE23241CA8D4270027A898 /* Dragonball.mp3 */; };
+		45BE232A1CA8D4270027A898 /* Laser_Shoot5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45BE23251CA8D4270027A898 /* Laser_Shoot5.wav */; };
+		45BE232B1CA8D4270027A898 /* Powerup7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45BE23261CA8D4270027A898 /* Powerup7.wav */; };
+		45BE232C1CA8D4270027A898 /* Powerup9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 45BE23271CA8D4270027A898 /* Powerup9.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -664,6 +669,11 @@
 		45BE23151CA8BE4F0027A898 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		45BE23161CA8BE4F0027A898 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		45BE23181CA8BE4F0027A898 /* white_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_square.png; path = Resources/white_square.png; sourceTree = "<group>"; };
+		45BE23231CA8D4270027A898 /* ChocoboRacing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChocoboRacing.mp3; sourceTree = "<group>"; };
+		45BE23241CA8D4270027A898 /* Dragonball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dragonball.mp3; sourceTree = "<group>"; };
+		45BE23251CA8D4270027A898 /* Laser_Shoot5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Laser_Shoot5.wav; sourceTree = "<group>"; };
+		45BE23261CA8D4270027A898 /* Powerup7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Powerup7.wav; sourceTree = "<group>"; };
+		45BE23271CA8D4270027A898 /* Powerup9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Powerup9.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -710,6 +720,7 @@
 		45BE205D1CA8BE4C0027A898 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				45BE23221CA8D4270027A898 /* Sounds */,
 				45BE205E1CA8BE4C0027A898 /* Default.png */,
 				45BE20601CA8BE4C0027A898 /* Default@2x.png */,
 				45BE20621CA8BE4C0027A898 /* Default-568h@2x.png */,
@@ -1548,6 +1559,19 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		45BE23221CA8D4270027A898 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				45BE23231CA8D4270027A898 /* ChocoboRacing.mp3 */,
+				45BE23241CA8D4270027A898 /* Dragonball.mp3 */,
+				45BE23251CA8D4270027A898 /* Laser_Shoot5.wav */,
+				45BE23261CA8D4270027A898 /* Powerup7.wav */,
+				45BE23271CA8D4270027A898 /* Powerup9.wav */,
+			);
+			name = Sounds;
+			path = Resources/Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1624,6 +1648,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45BE20611CA8BE4C0027A898 /* Default@2x.png in Resources */,
+				45BE232B1CA8D4270027A898 /* Powerup7.wav in Resources */,
 				45BE230C1CA8BE4F0027A898 /* LICENSE_Chipmunk.txt in Resources */,
 				45BE20741CA8BE4C0027A898 /* Icon-120.png in Resources */,
 				45BE206A1CA8BE4C0027A898 /* Icon@2x.png in Resources */,
@@ -1633,6 +1658,7 @@
 				45BE20681CA8BE4C0027A898 /* Icon.png in Resources */,
 				45BE20761CA8BE4C0027A898 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				45BE20651CA8BE4C0027A898 /* Default-Landscape~ipad.png in Resources */,
+				45BE23291CA8D4270027A898 /* Dragonball.mp3 in Resources */,
 				45BE207A1CA8BE4C0027A898 /* Icon-Small.png in Resources */,
 				45BE20781CA8BE4C0027A898 /* Icon-Small-50.png in Resources */,
 				45BE23191CA8BE4F0027A898 /* white_square.png in Resources */,
@@ -1640,10 +1666,13 @@
 				45BE21671CA8BE4D0027A898 /* LICENSE_cocos2d.txt in Resources */,
 				45BE216A1CA8BE4D0027A898 /* CCEffectRenderer.h in Resources */,
 				45BE20631CA8BE4C0027A898 /* Default-568h@2x.png in Resources */,
+				45BE23281CA8D4270027A898 /* ChocoboRacing.mp3 in Resources */,
 				45BE20831CA8BE4C0027A898 /* iTunesArtwork in Resources */,
+				45BE232A1CA8D4270027A898 /* Laser_Shoot5.wav in Resources */,
 				45BE22411CA8BE4F0027A898 /* LICENSE_CCBReader.txt in Resources */,
 				45BE207E1CA8BE4C0027A898 /* Icon-Spotlight-iOS7.png in Resources */,
 				45BE20721CA8BE4C0027A898 /* Icon-76@2x.png in Resources */,
+				45BE232C1CA8D4270027A898 /* Powerup9.wav in Resources */,
 				45BE20801CA8BE4C0027A898 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				45BE20701CA8BE4C0027A898 /* Icon-76.png in Resources */,
 				45BE20851CA8BE4C0027A898 /* iTunesArtwork@2x in Resources */,
