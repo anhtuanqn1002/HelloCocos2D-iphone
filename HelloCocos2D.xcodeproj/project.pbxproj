@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451741E61CAA1F44008F6B94 /* LKDJ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 451741E51CAA1F44008F6B94 /* LKDJ.mp3 */; };
 		45BE205F1CA8BE4C0027A898 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45BE205E1CA8BE4C0027A898 /* Default.png */; };
 		45BE20611CA8BE4C0027A898 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45BE20601CA8BE4C0027A898 /* Default@2x.png */; };
 		45BE20631CA8BE4C0027A898 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45BE20621CA8BE4C0027A898 /* Default-568h@2x.png */; };
@@ -213,6 +214,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		451741E51CAA1F44008F6B94 /* LKDJ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LKDJ.mp3; sourceTree = "<group>"; };
 		45BE20571CA8BE4C0027A898 /* HelloCocos2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocos2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BE205B1CA8BE4C0027A898 /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveChipmunk.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BE205E1CA8BE4C0027A898 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
@@ -1562,6 +1564,7 @@
 		45BE23221CA8D4270027A898 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				451741E51CAA1F44008F6B94 /* LKDJ.mp3 */,
 				45BE23231CA8D4270027A898 /* ChocoboRacing.mp3 */,
 				45BE23241CA8D4270027A898 /* Dragonball.mp3 */,
 				45BE23251CA8D4270027A898 /* Laser_Shoot5.wav */,
@@ -1674,6 +1677,7 @@
 				45BE20721CA8BE4C0027A898 /* Icon-76@2x.png in Resources */,
 				45BE232C1CA8D4270027A898 /* Powerup9.wav in Resources */,
 				45BE20801CA8BE4C0027A898 /* Icon-Spotlight-iOS7@2x.png in Resources */,
+				451741E61CAA1F44008F6B94 /* LKDJ.mp3 in Resources */,
 				45BE20701CA8BE4C0027A898 /* Icon-76.png in Resources */,
 				45BE20851CA8BE4C0027A898 /* iTunesArtwork@2x in Resources */,
 			);
@@ -2027,6 +2031,7 @@
 				45BE231E1CA8BE4F0027A898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45BE231F1CA8BE4F0027A898 /* Build configuration list for PBXNativeTarget "ObjectiveChipmunk" */ = {
 			isa = XCConfigurationList;
@@ -2035,6 +2040,7 @@
 				45BE23211CA8BE4F0027A898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
